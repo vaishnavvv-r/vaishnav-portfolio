@@ -1,0 +1,26 @@
+.hero-visual::before {
+  content: '';
+  position: absolute;
+  top: 24px;
+  right: 8%;
+  width: 142px;
+  height: 142px;
+  border: 2px solid var(--green);
+  border-radius: 50%;
+  background: #e9eeee url('/profile-pic.webp') center 12% / 125% no-repeat;
+  box-shadow: 0 0 0 7px rgba(8, 11, 16, .85), 0 0 32px rgba(0, 255, 156, .24);
+  z-index: 3;
+}
+
+@media (max-width: 800px) {
+  .hero-visual::before {
+    top: 8px;
+    right: 5%;
+    width: 112px;
+    height: 112px;
+  }
+}
+
+.footer span:nth-child(2) {
+  display: none;
+}

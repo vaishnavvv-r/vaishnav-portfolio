@@ -1,0 +1,49 @@
+.certifications-section {
+  padding-top: 30px;
+}
+
+.certifications-section .section-label {
+  margin-bottom: 28px;
+}
+
+.certification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.certificate-link {
+  color: var(--green);
+  font: 11px 'DM Mono';
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.certificate-link:hover {
+  color: #8dffc9;
+}
+
+.credentials {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.certifications-section {
+  order: 6;
+}
+
+.education-section {
+  order: 5;
+  padding-top: 30px;
+}
+
+.contact-section {
+  order: 7;
+}

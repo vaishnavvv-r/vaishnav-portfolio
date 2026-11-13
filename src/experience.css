@@ -1,0 +1,12 @@
+.experience-meta .current {
+  font-size: 0;
+}
+
+.experience-meta .current::after {
+  content: '● Completed';
+  font-size: 11px;
+}
+
+.experience-note {
+  display: none;
+}

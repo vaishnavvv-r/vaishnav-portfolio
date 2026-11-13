@@ -1,0 +1,1 @@
+export const experience = { company: 'Inmakes Infotech', role: 'Python Full Stack Developer Intern', duration: 'JUNE 2025 - FEB 2026', description: 'Worked on software development tasks involving application development, programming, debugging, and practical implementation of technical concepts.' }

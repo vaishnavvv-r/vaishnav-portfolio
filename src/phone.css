@@ -1,0 +1,12 @@
+.phone-contact {
+  display: none;
+}
+
+.contact-links .phone-inline {
+  color: #b3c1bc;
+  text-decoration: none;
+}
+
+.contact-links .phone-inline:hover {
+  color: var(--green);
+}
